@@ -1,0 +1,245 @@
+@media screen and (min-width: 1000px) {
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 25fr 0.1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: center;
+}
+
+h1 {
+    font-family: VT323, monospace;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+a:hover {
+    color: #ff6544;
+    transition: .6s
+}
+
+p {
+    font-family: VT323, monospace;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-style: italic;
+    justify-self: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+  }
+  
+.column {
+    flex: 25%;
+    max-width: 22%;
+    padding: 10px;
+}
+  
+.column img {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.orange {
+    justify-self: center;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.orange img {
+    max-width: 80px;
+}
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background: white;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 35fr 0.01fr;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .header {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        justify-self: center;
+    }
+    
+    h1 {
+        font-family: VT323, monospace;
+        font-size: 2.8rem;
+        font-weight: normal;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000
+    }
+    a:hover {
+        color: #ff6544;
+        transition: .6s
+    }
+    
+    p {
+        font-family: VT323, monospace;
+        font-size: 1.6rem;
+        font-weight: normal;
+    }
+    
+    p2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+        font-style: italic;
+        justify-self: center;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+    
+      
+    .column img {
+        vertical-align: middle;
+        width: 100%;
+        padding-bottom: 20px;
+
+    }
+
+    .column {
+        flex: 45%;
+        max-width: 50%;
+        padding: 10px;
+    }
+
+    .orange {
+        justify-self: center;
+        padding: 30px;
+        margin-top: 10px;
+    }
+    
+    .orange img {
+        max-width: 80px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: white;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.01fr 6fr 0.001fr;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .header {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        justify-self: center;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    h1 {
+        font-family: VT323, monospace;
+        font-size: 2.5rem;
+        font-weight: normal;
+        text-align: center;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000
+    }
+    a:hover {
+        color: #ff6544;
+        transition: .6s
+    }
+    
+    p {
+        font-family: VT323, monospace;
+        font-size: 1.6rem;
+        font-weight: normal;
+    }
+    
+    p2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+        font-style: italic;
+        justify-self: center;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+    
+      
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .orange {
+        justify-self: center;
+        padding: 30px;
+        margin-top: 10px;
+    }
+    
+    .orange img {
+        max-width: 80px;
+    }
+  }
